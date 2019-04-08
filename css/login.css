@@ -12,6 +12,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+     Background-image: url('../img./bg_background3.jpg');
+}
+
 p {
     color: gainsboro;
 }
@@ -25,9 +29,8 @@ p {
 .login-container-grid {
     display: grid;
     grid-template-rows: 1fr 13fr 1fr;
-    /* background-color: #f1f1f1; */
-    
 }
+    
 
 .r1,
 .r3 {
@@ -39,8 +42,6 @@ p {
 
 .r2 {
     display: grid;
-    Background-image: url('../img./bg_background3.jpg');
-    filter: opacity(75%);
 }
 
 .r3>p {
@@ -86,6 +87,7 @@ p {
     width: 100%;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    background-color: rgba(214, 194, 199, 0.3);
 }
 
 .login-input {
@@ -99,6 +101,6 @@ p {
     font-weight: bold;
     font-size: 18px;
     color: #F1f1f1;
-    background-color:rgba(91, 68, 97,0.9);
+    background-color:rgba(91, 68, 97, 0.9);
     border-radius: 10px;
 }
