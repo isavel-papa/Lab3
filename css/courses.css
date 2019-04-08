@@ -37,27 +37,27 @@ body {
 .r2,
 .r3 {
     display: grid;
-    grid-template-columns: 1fr 5fr 2fr;
+    grid-template-columns: 1.5fr 5fr 2fr;
     grid-column-gap: 1em;
 }
 
 .r1 {
-    background-color: #ccc;
+    background-color:rgba(91, 68, 97, 0.76);
 }
 
 .r2 {
-    background-color: #f1f1f1;
+    background-color: rgba(214, 194, 199, 0.7);
     width:90%;
     margin: 0px auto;
 }
 
 .r3 {
-    background-color: #ccc;
+    background-color:rgba(91, 68, 97, 0.76);
 }
 
 .r2c1,
 .r2c3 {
-    background-color: #CCC;
+    background-color: rgba(214, 194, 199, 0.3);
 }
 
 /* R1 C1 - Logo Top Left */
@@ -69,13 +69,13 @@ body {
 
 .logo-text {
     display: block;
-    padding: 5px;
-    font-size: 20px;
-    /* color: gainsboro; */
+    padding: 3px 0px 3px 5px;
+    font-size: 25px;
+    color: gainsboro;
     float: left;
     width: 75%;
-    align-self:center;
-    text-align: center;
+    align-self: center;
+    text-align: left;
 }
 
 /* R2 C1 - Left Nav */
@@ -148,18 +148,26 @@ td {
 }
 /* Edit the header data */
 .course-table > thead > tr > td {
-    border: 1px solid #AAA;
+    border: 1px solid rgb(91, 68, 97);
     font-weight: bold;
+    color: gainsboro;
     font-size:18px; 
-    background-color:#a4b4a5;
+    background-color:rgba(91, 68, 97,0.9);
 }
 /* Edit the body rows */
 .course-table > tbody > tr {
     height:28px;
 }
+.tbl-r1, .tbl-r3, .tbl-r5 {
+    background-color: rgba(233,172,163, 0.3);
+}
+.tbl-r2, .tbl-r4, .tbl-r6 {
+background-color:rgba(152,180,204, 0.5);
+}
+
 /* Edit the body table data */
 .course-table > tbody > tr > td {
-    border: 1px solid #a6a6e9;
+    border: 1px solid rgb(91, 68, 97);
 }
 /* R2 C3 */
 .r2c3 {
@@ -169,4 +177,5 @@ td {
 .copyright-text {
     align-self:center;
     justify-self: center;
+    color: gainsboro;
 }
