@@ -156,35 +156,52 @@ a {
     color: rgb(221, 221, 221);
 }
 
+
 .link1 {
-    color: #B28D94;
+    color: #9EA4BA;
 }
 .link2 {
-    color: #574762;
+    color: #B28D94;
 }
 .link3 {
-    color: #4E4967;
+    color: #5E4362;
 }
 .link4 {
-    color: #25395E;
+    color: #4F4869;
 }
 .link5 {
+    color: #3A4064;
+}
+.link6 {
     color: #1D2D4E;
 }
+
+.link7 {
+    color: #15314E;
+}
+
 .link1:hover {
-    background-color:#B28D94;
+    background-color:#9EA4BA;
 }
 .link2:hover {
-    background-color:#574762;
+    background-color:#B28D94; 
 }
 .link3:hover {
-    background-color:#4E4967;
+    background-color:#5E4362;
 }
 .link4:hover {
-    background-color:#25395E;
+    background-color:#4F4869;
 }
 .link5:hover {
-    background-color:#1D2D4E;
+    background-color: #3A4064;
+}
+
+.link6:hover {
+    background-color: #25375F;
+}
+
+.link7:hover {
+    background-color: #15314E;
 }
 
 .gallery-container {

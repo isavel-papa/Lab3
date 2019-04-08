@@ -12,6 +12,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+p {
+    color: gainsboro;
+}
+
 .box-shadow {
     -webkit-box-shadow: 0px 1px 9px -1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 1px 9px -1px rgba(0, 0, 0, 0.75);
@@ -21,12 +25,13 @@ body {
 .login-container-grid {
     display: grid;
     grid-template-rows: 1fr 13fr 1fr;
-    background-color: #f1f1f1;
+    /* background-color: #f1f1f1; */
+    
 }
 
 .r1,
 .r3 {
-    background-color: #ccc;
+    background-color: rgba(91, 68, 97, 0.76);
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
     grid-column-gap: 1em;
@@ -34,6 +39,8 @@ body {
 
 .r2 {
     display: grid;
+    Background-image: url('../img./bg_background3.jpg');
+    filter: opacity(75%);
 }
 
 .r3>p {
@@ -50,13 +57,13 @@ body {
 
 .logo-name {
     display: block;
-    padding: 5px;
-    font-size: 20px;
-    /* color: gainsboro; */
+    padding: 3px 0px 3px 5px;
+    font-size: 25px;
+    color: gainsboro;
     float: left;
     width: 75%;
     align-self: center;
-    text-align: center;
+    text-align: left;
 }
 
 /* Login Form */
@@ -91,7 +98,7 @@ body {
     justify-self: right;
     font-weight: bold;
     font-size: 18px;
-    color: #FFF;
-    background-color: #df4b25;
+    color: #F1f1f1;
+    background-color:rgba(91, 68, 97,0.9);
     border-radius: 10px;
 }
