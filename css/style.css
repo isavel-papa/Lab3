@@ -127,6 +127,8 @@ a {
      background-color: rgba(214, 194, 199, 0.3);
     height: 100%;
     float: left;
+    overflow:auto;
+    overflow-x:hidden;
 }
 
 .gallery {
